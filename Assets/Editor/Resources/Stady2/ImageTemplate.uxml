@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML xmlns="UnityEngine.UIElements">
+
+  <Image class ="quicktool-image">
+    <VisualElement class="quicktool-image-icon"/>
+    <Label class ="quicktool-label"/>
+  </Image>
+
+</UXML>
