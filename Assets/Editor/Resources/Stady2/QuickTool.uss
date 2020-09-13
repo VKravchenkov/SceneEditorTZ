@@ -1,0 +1,25 @@
+.image-container {
+	flex-direction:column;
+	flex-wrap: wrap;
+}
+
+.quicktool-image {
+    width: 100px;
+    height: 100px;
+    /* Style rule that aligns items on the horizontal axis. */
+    align-items: flex-start;
+    /* Style rule that aligns items on the vertical axis. */
+    justify-content: center;
+}
+
+.quicktool-image-icon {
+    height: 80px;
+    width: 80px;
+    opacity: 0.8;
+}
+.quicktool-label
+{    
+	display: flex;
+	flex-direction: row;
+	width: auto;	
+}

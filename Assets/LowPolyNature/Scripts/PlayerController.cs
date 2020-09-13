@@ -52,6 +52,11 @@ public class PlayerController : MonoBehaviour
 
     public UnityEvent QuestCompleted;
 
+    private void Awake()
+    {
+        EventManager.OnShowPlayer += (isShow) => gameObject.SetActive(isShow);
+    }
+
     // Use this for initialization
     void Start()
     {
@@ -73,6 +78,11 @@ public class PlayerController : MonoBehaviour
         mFoodBar.SetValue(Food);
 
         InvokeRepeating("IncreaseHunger", 0, HungerRate);
+    }
+
+    private void OnDisable()
+    {
+        EventManager.OnShowPlayer -= (isShow) => gameObject.SetActive(isShow);
     }
 
 

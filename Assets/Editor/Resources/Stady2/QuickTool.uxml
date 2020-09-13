@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML xmlns="UnityEngine.UIElements">
+  <Template path ="Assets/Editor/Resources/Stady2/ImageTemplate.uxml" name ="image-template"/>
+  <VisualElement class ="image-container">
+    <Instance template ="image-template" name ="Firewood_logs Variant"/>
+    <Instance template ="image-template" name ="Mushrooms Variant"/>
+    <Instance template ="image-template" name ="mushrooms_plants Variant"/>
+    <Instance template ="image-template" name ="Stone1 Variant"/>
+    <Instance template ="image-template" name ="Stone2 Variant"/>
+    <Instance template ="image-template" name ="Stone4 Variant"/>
+  </VisualElement>
+</UXML>
